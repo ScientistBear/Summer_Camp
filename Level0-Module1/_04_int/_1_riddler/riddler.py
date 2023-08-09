@@ -1,13 +1,8 @@
-"""
-* Write a python program that asks the user a minimum of 3 riddles.
 
-* You can look at riddles.com if you don't already know any riddles.
+from tkinter import simpledialog, Tk, messagebox
 
-* Collect the response of each riddle from the user and compare their
-  answers to the correct answer. 
+root = Tk()
 
-* Use a variable to keep track of the correctly answered riddles
-
-* After all the riddles have been asked, tell the user how many they got
-  correct
-"""
+y = simpledialog.askstring(title='riddle', prompt='There are two monkeys on a tree and one jumps off. Why does the other monkey jump too?')
+if y == 'Monkey see monkey do.':
+    messagebox.showinfo(title='', message='')
