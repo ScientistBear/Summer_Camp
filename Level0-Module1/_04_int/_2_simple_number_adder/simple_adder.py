@@ -1,5 +1,9 @@
-"""
-* Write a Python program that asks the user for two numbers.
+from tkinter import simpledialog, messagebox, Tk
 
-* Display the sum of the two numbers to the user
-"""
+root = Tk()
+
+
+Num_1 = simpledialog.askinteger(title='', prompt='First Number')
+Num_2 = simpledialog.askinteger(title='', prompt='Second Number')
+
+messagebox.showinfo(title='', message=Num_1+Num_2)
