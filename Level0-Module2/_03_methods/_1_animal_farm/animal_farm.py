@@ -13,6 +13,60 @@ def animals():
 
     # TODO 1. Ask the user which animal they want, then see and
     #  hear the animal they chose using one of the methods below.
+    h = simpledialog.askstring(title='', prompt='What Animal')
+    if h == 'cat':
+        show_image(filename="cat.jpg")
+        meow()
+    if h == 'cow':
+        show_image(filename="cow.jpg")
+        moo()
+    if h == 'dog':
+        show_image(filename="dog.jpg")
+        woof()
+        woof()
+        woof()
+        woof()
+        woof()
+        woof()
+        woof()
+        woof()
+        woof()
+        woof()
+        woof()
+        woof()
+        woof()
+        woof()
+        woof()
+        woof()
+        woof()
+
+    if h == 'duck':
+        show_image(filename="duck.jpg")
+        quack()
+    if h == 'llama':
+        show_image(filename="llama.jpg")
+    for i in range(1000000000000000000000000000):
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
+        llama_scream()
 
     # TODO 2. Make it so that the user can keep entering new animals.
 
@@ -56,7 +110,6 @@ def quack():
 
 
 def woof():
-    show_image('dog.jpg')
     playsound('woof.wav')
 
 
@@ -66,7 +119,6 @@ def meow():
 
 
 def llama_scream():
-    show_image('llama.jpg')
     playsound('llama.wav')
 
 
